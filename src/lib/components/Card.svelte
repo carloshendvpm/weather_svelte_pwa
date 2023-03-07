@@ -1,15 +1,16 @@
 <script>
-  import sun from '../images/sun.svg';
+  export let icon;
 </script>
-<div class="bg-zinc-800 w-1/4 flex flex-col p-5 rounded pb-10">
+<div class="bg-zinc-800 flex flex-col p-5 justify-between min-h-fit rounded pb-10 w-2/5 max-w-xl min-w-fit">
   <div class="header w-full flex justify-between items-center mb-10">
     <div class="text-white text-xl">
       <p class="font-bold text-2xl">Recife, PE</p>
-      <p class="font-normal">broken clouds</p>
+      <p class="font-semibold">Tue, 7 - broken clouds </p>
+
     </div>
-    <img src={sun} class="w-1/5" alt="sun img">
+    <img src={icon} class="w-20 h-20 mr-2" alt="sun img">
   </div>
-  <div class="flex w-full justify-between items-center">
+  <div class="flex w-full justify-between items-center gap-2 md:gap-20">
     <p class="text-8xl font-semibold text-white">26ºC</p>
     <div class="details text-white font-medium">
       <h3>Details</h3>
