@@ -17,5 +17,8 @@
 		"tailwindcss": "^3.2.7",
 		"vite": "^4.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"cypress": "^12.7.0"
+	}
 }
