@@ -1,25 +1,24 @@
 <script>
-  export let icon;
+  import humidty_icon from '$lib/images/humidity.svg';
 </script>
-<div class="bg-zinc-800 flex flex-col p-7 justify-between min-h-fit rounded pb-10 w-2/5 max-w-xl min-w-fit">
-  <div class="header w-full flex justify-between items-center mb-10">
-    <div class="text-white text-xl">
-      <p class="font-bold text-2xl">Recife, PE</p>
-      <p class="font-semibold">Tue, 7 - broken clouds </p>
 
+<div class="bg-zinc-800 flex flex-col text-white w-full max-w-xl p-8 border-4 rounded-lg">
+  <div class="header flex mb-8">
+    <div>
+      <p class="text-6xl font-semibold mb-1">29ºC</p>
+      <p class="font-medium mb-3">Feels like 31ºC</p>
+      <p class="font-medium text-xl">Recife, PE</p>
     </div>
-    <img src={icon} class="w-20 h-20 mr-2" alt="sun img">
   </div>
-  <div class="flex w-full justify-between items-center gap-2 md:gap-20">
-    <p class="text-8xl font-semibold text-white">26<span class="text-4xl font-normal">ºC</span></p>
-    <div class="details text-white font-medium">
-      <h3>Details</h3>
-      <p>Feels Like: 26.02ºC</p>
-      <p>Humidity: 11%</p>
-      <p>Pressure: 1013hPs</p>
+  <div>
+    <div class="humidity flex items-center w-2/5 bg-zinc-600 bg-opacity-40 justify-center pr-2 md:pr-0 max-w-xs rounded-sm gap-2 md:gap-5">
+      <div>
+        <img src={humidty_icon} alt="humidity" class="w-10 h-1/3">
+      </div>
+      <div class="font-medium">
+        <p>Humidity</p>
+        <p>17%</p>
+      </div>
     </div>
   </div>
 </div>
-<style>
-
-</style>
