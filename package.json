@@ -20,6 +20,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"cypress": "^12.7.0"
+		"cypress": "^12.7.0",
+		"svelte-icons-pack": "^2.1.0"
 	}
 }
