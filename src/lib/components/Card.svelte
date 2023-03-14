@@ -7,9 +7,9 @@
 <div class="bg-zinc-800 flex flex-col text-white w-full max-w-xl p-8 drop-shadow-lg rounded-lg">
   <div class="header flex justify-between mb-8">
     <div>
-      <p class="text-6xl font-semibold mb-1">29ºC</p>
-      <p class="font-medium mb-3">Feels like 31ºC</p>
       <p class="font-medium text-xl"> Recife, PE</p>
+      <p class="text-6xl font-semibold mb-1">29ºC</p>
+      <p class="mb-3">14 mar, 2023.</p>
     </div>
     <div class="flex justify-end m-2 items-start w-1/5">
       <img src={rain} alt="rain" class="text-center">
