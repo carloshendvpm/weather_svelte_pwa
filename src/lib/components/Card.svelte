@@ -1,9 +1,10 @@
 <script>
   import humidty from '$lib/images/humidity.svg';
   import rain from '$lib/images/rain.svg';
+  import sun from '$lib/images/sunny.svg'
 </script>
 
-<div class="bg-zinc-800 flex flex-col text-white w-full max-w-xl p-8 border-4 rounded-lg">
+<div class="bg-zinc-800/95 flex flex-col text-white w-full max-w-xl p-8 drop-shadow-lg rounded-lg">
   <div class="header flex justify-between mb-8">
     <div>
       <p class="text-6xl font-semibold mb-1">29ºC</p>
@@ -14,18 +15,21 @@
       <img src={rain} alt="rain" class="text-center">
     </div>
   </div>
-  <div class="flex flex-col sm:flex-row gap-5 text-center w-full items-start justify-between">
-    <div class="bg-zinc-600/50 w-1/2 p-2.5 flex gap-2 rounded border-2 border-zinc-400/50 text-center">
+  <div class="flex flex-row sm:flex-row gap-5 text-center w-full items-start justify-between">
+    <div class="bg-zinc-800 drop-shadow-2xl shadow-2xl w-2/5 p-2.5 flex flex-col items-center gap-1 rounded border-zinc-400/50 text-center">
       <img src={humidty} alt="" class="w-5">
-      <p class="font-semibold text-sm">Humidity: 70%</p>
+      <p class="font-semibold text-sm">70%</p>
+      <p class="font-normal text-xs">Humidity</p>
     </div>
-    <div class="bg-zinc-600/50 w-1/2 p-2.5 flex gap-2 rounded border-2 border-zinc-400/50 text-center">
-      <img src={humidty} alt="" class="w-5">
-      <p class="font-semibold text-sm">Humidity: 70%</p>
+    <div class="bg-zinc-800 drop-shadow-2xl shadow-zinc-800 w-2/5 p-2.5 flex flex-col items-center gap-1 rounded border-zinc-400/50 text-center">
+      <img src={rain} alt="" class="w-5">
+      <p class="font-semibold text-sm">10%</p>
+      <p class="font-normal text-xs">Rain</p>
     </div>
-    <div class="bg-zinc-600/50 w-1/2 p-2.5 flex gap-2 rounded border-2 border-zinc-400/50 text-center">
-      <img src={humidty} alt="" class="w-5">
-      <p class="font-semibold text-sm">Chuva: 10%</p>
+    <div class="bg-zinc-800 drop-shadow-2xl shadow-2xl w-2/5 p-2.5 flex flex-col items-center gap-1 rounded border-zinc-400/50 text-center">
+      <img src={sun} alt="" class="w-5">
+      <p class="font-semibold text-sm">10</p>
+      <p class="font-normal text-xs">UV</p>
     </div>
   </div>
 </div>
