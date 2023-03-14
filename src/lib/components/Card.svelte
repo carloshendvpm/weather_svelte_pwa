@@ -4,7 +4,7 @@
   import sun from '$lib/images/sunny.svg'
 </script>
 
-<div class="bg-zinc-800/95 flex flex-col text-white w-full max-w-xl p-8 drop-shadow-lg rounded-lg">
+<div class="bg-zinc-800 flex flex-col text-white w-full max-w-xl p-8 drop-shadow-lg rounded-lg">
   <div class="header flex justify-between mb-8">
     <div>
       <p class="text-6xl font-semibold mb-1">29ºC</p>
@@ -16,17 +16,17 @@
     </div>
   </div>
   <div class="flex flex-row sm:flex-row gap-5 text-center w-full items-start justify-between">
-    <div class="bg-zinc-800 drop-shadow-2xl shadow-2xl w-2/5 p-2.5 flex flex-col items-center gap-1 rounded border-zinc-400/50 text-center">
+    <div class="bg-zinc-800 drop-shadow-2xl shadow-[0px_22px_20px_4px_rgba(0,0,0,0.50)] transition duration-300 ease-in-out hover:scale-110 w-40 p-2.5 flex flex-col items-center gap-1 rounded border-zinc-400/50 text-center">
       <img src={humidty} alt="" class="w-5">
       <p class="font-semibold text-sm">70%</p>
       <p class="font-normal text-xs">Humidity</p>
     </div>
-    <div class="bg-zinc-800 drop-shadow-2xl shadow-zinc-800 w-2/5 p-2.5 flex flex-col items-center gap-1 rounded border-zinc-400/50 text-center">
+    <div class="bg-zinc-800 drop-shadow-2xl shadow-[0px_22px_20px_4px_rgba(0,0,0,0.50)] transition duration-300 ease-in-out hover:scale-110 w-40 p-2.5 flex flex-col items-center gap-1 rounded border-zinc-400/50 text-center">
       <img src={rain} alt="" class="w-5">
       <p class="font-semibold text-sm">10%</p>
       <p class="font-normal text-xs">Rain</p>
     </div>
-    <div class="bg-zinc-800 drop-shadow-2xl shadow-2xl w-2/5 p-2.5 flex flex-col items-center gap-1 rounded border-zinc-400/50 text-center">
+    <div class="bg-zinc-800 drop-shadow-2xl shadow-[0px_22px_20px_4px_rgba(0,0,0,0.50)] transition duration-300 ease-in-out hover:scale-110 w-40 p-2.5 flex flex-col items-center gap-1 rounded border-zinc-400/50 text-center">
       <img src={sun} alt="" class="w-5">
       <p class="font-semibold text-sm">10</p>
       <p class="font-normal text-xs">UV</p>
