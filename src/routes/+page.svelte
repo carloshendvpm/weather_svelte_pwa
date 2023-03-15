@@ -2,7 +2,6 @@
 	import Card from "$lib/components/Card.svelte";
 	import DailyForecast from "$lib/components/DailyForecast.svelte";
 	import Search from "$lib/components/Search.svelte";
-	import { fly } from 'svelte/transition'
 
 	let searched = false
 	setTimeout(() => {
