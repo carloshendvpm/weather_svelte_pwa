@@ -3,7 +3,7 @@
 	import DailyForecast from "$lib/components/DailyForecast.svelte";
 </script>
 
-<div class="min-h-screen w-screen flex flex-col items-center justify-center px-5">
+<div class="min-h-screen w-screen flex flex-col items-center justify-center px-5 bg-zinc-700">
 	<Card/>
 	<DailyForecast/>
 </div>
