@@ -1,10 +1,11 @@
 <script>
   import DailyForecastCard from "./DailyForecastCard.svelte";
+  import { fly } from 'svelte/transition'
   import sun from '$lib/images/sunny.svg'
   import rain from '$lib/images/rain.svg'
   import thunder from '$lib/images/thunder.svg'
 </script>
-<div class="mt-4 w-full max-w-xl flex bg-zinc-800 rounded flex-col p-8 gap-2 text-white">
+<div class="mt-4 w-full max-w-xl flex bg-zinc-800 rounded flex-col p-8 gap-2 text-white" in:fly="{{ y: 200, duration: 3000 }}">
   <div>
     <p class="font-semibold text-2xl">Daily Forecast</p>
   </div>
