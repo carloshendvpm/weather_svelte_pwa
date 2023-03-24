@@ -20,9 +20,10 @@
       <img src={rain} alt="rain" class="text-center">
     </div>
   </div>
-  <div class="flex flex-row sm:flex-row gap-5 text-center w-full items-start justify-between">
+  <div class="flex flex-row sm:flex-row text-center w-full items-start justify-between">
     <InfoWeather percentage="10%" icon={rain} type="Rain"/>
     <InfoWeather percentage="70%" icon={humidty} type="Humidity"/>
+    <InfoWeather percentage="10" icon={sun} type="UV"/>
     <InfoWeather percentage="10" icon={sun} type="UV"/>
   </div>
 </div>
