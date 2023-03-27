@@ -1,4 +1,6 @@
 # Weather app PWA
+![image](https://user-images.githubusercontent.com/80500801/228088847-49f87f04-0071-4c3f-8001-f128d29f53cf.png)
+
 
 This project is a progressive web application (PWA) that displays information about temperatures of different locations. It is built using Svelte for the frontend, TailwindCSS to styling, Cypress for end-to-end testing, and Storybook for component development. The project is written in JavaScript and using mobile first concepts. 
 
